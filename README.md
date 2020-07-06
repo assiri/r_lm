@@ -19,7 +19,7 @@ predict(simple.fit,list(Spend=2000))
 ```
 ## Or
 ```
-predict(simple.fit,data.frame(Spend=c(100,2000)))
+predict(simple.fit,data.frame(Spend=c(1000,2000)))
 ```
 Multiple
 ```
