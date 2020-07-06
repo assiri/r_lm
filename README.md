@@ -17,6 +17,10 @@ summary(simple.fit)
 ```
 predict(simple.fit,list(Spend=2000))
 ```
+## Or
+```
+predict(simple.fit,data.frame(Spend=c(100,2000)))
+```
 Multiple
 ```
 multi.fit = lm(Sales~Spend+Month, data=dataset)
