@@ -12,6 +12,13 @@ dataset = read.csv("data-marketing-budget-12mo.csv", header=T,
 colClasses = c("numeric", "numeric", "numeric"))
 simple.fit = lm(Sales~Spend, data=dataset)
 summary(simple.fit)
+```
+#predict
+```
+predict(simple.fit,list(Spend=2000))
+```
+Multiple
+```
 multi.fit = lm(Sales~Spend+Month, data=dataset)
 summary(multi.fit)
 ```
