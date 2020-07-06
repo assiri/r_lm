@@ -13,7 +13,7 @@ colClasses = c("numeric", "numeric", "numeric"))
 simple.fit = lm(Sales~Spend, data=dataset)
 summary(simple.fit)
 ```
-#predict
+# Predict
 ```
 predict(simple.fit,list(Spend=2000))
 ```
